@@ -73,6 +73,11 @@ nav{
     font-family: 'Lato', sans-serif;
     color: black;
     font-size: larger;
+    transition: 0.5s;
+}
+
+.nav__list li a:hover{
+    font-size:x-large;
 }
 /*Termina estilo en barra de navegacion*/
 
@@ -236,11 +241,23 @@ footer{
 .logo-red{
     width: 70px;
     height: 60px;
+    transition: 0.5s;
 } 
+
+.logo-red:hover{
+    width: 80px;
+    height: 70px;
+}
 
 .logo-fb{
     width: 60px;
     height: 45px;
+    transition: 0.5s;
+}
+
+.logo-fb:hover{
+    width: 70px;
+    height: 55px;
 }
 /*Termina estilo footer*/
 
@@ -278,6 +295,12 @@ footer{
     width: 500px;
     height: 350px;
     margin: 5px;
+    transition: 0.5s;
+}
+
+.img-bm__team:hover{
+    width: 530px;
+    height: 380px;
 }
 /* Termina estilo html multimedia */
 
@@ -342,6 +365,17 @@ form .form__text{
     color: white;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
+}
+
+input:focus{
+    background-color: aqua;
+    height: 20px;
+    font-size: larger;
+}
+
+textarea:focus{
+    background-color: aqua;
+    font-size: larger;
 }
 /* Termina estilo en contactos */
 
@@ -431,18 +465,18 @@ form .form__text{
 /* Termina estilo main responsive */
 
 /* Inicia estilo multimedia responsive */
-.img-bm__team{
+    .img-bm__team{
     width: 350px;
     height: 250px;
-}
+    }
 
-.videos-text{
+    .videos-text{
     font-size: medium;
-}
+    }
 
-.img-bm h2{
+    .img-bm h2{
     font-size: medium;
-}
+    }
 /* Termina estilo multimedia responsive */
 
 /* Inicia estilo footer responsive */
@@ -469,33 +503,33 @@ form .form__text{
 /* Termina estilo footer responsive */
 
 /* Inicia estilo html miembros responsive */
-.nosotros{
+    .nosotros{
     justify-content: center;
-}
+    }
 
-.nosotros-text{
+    .nosotros-text{
     width: 100%;
     font-size: smaller;
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
-}
+    }
 
-.nosotros{
+    .nosotros{
     margin-top: 4rem;
-}
+    }
 /* Termina estilo html miembos responsive */
 
 /* Inicia estilo html sobre nosotros responsive */
-.sobre-nos__text p{
-font-size: small;
-}
+    .sobre-nos__text p{
+    font-size: small;
+    }
 /* Termina estilo html sobre nosotros responsive */
 
 /* Inicia estilo en contactos*/
-form{
+    form{
     width: 320px;
-}
+    }
 /* Termina estilo en contactos */
 }
 /* Termina responsive para celular */
