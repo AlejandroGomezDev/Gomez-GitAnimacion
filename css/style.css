@@ -93,6 +93,12 @@ main{
     height: 480px;
     border: 2px outset white;
     border-radius: 15px;
+    transition: height 1s, width 1s;
+}
+
+.noticia1:hover{
+    width: 410px;
+    height: 490px;
 }
 
 .titulo1{
@@ -137,6 +143,12 @@ main{
     height: 480px;
     border: 2px outset white;
     border-radius: 15px;
+    transition: height 1s, width 1s;
+}
+
+.noticia2:hover{
+    width: 710px;
+    height: 490px;
 }
 
 .boton2{
@@ -160,6 +172,12 @@ main{
     height: 480px;
     border: 2px outset white;
     border-radius: 15px;
+    transition: height 1s, width 1s;
+}
+
+.noticia3:hover{
+    width: 710px;
+    height: 490px;
 }
 
 .noticia4{
@@ -169,6 +187,12 @@ main{
     height: 480px;
     border: 2px outset white;
     border-radius: 15px;
+    transition: height 1s, width 1s;
+}
+
+.noticia4:hover{
+    width: 410px;
+    height: 490px;
 }
 /*Termina estilo main*/
 
